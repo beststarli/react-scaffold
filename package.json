@@ -1,7 +1,7 @@
 {
   "name": "@beststar/create-react-scaffold",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A modern React scaffolding CLI tool — React + TypeScript + Vite + Tailwind CSS + shadcn/ui",
   "bin": {
