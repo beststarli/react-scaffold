@@ -18,7 +18,10 @@ function App() {
 					<li><strong>TypeScript</strong>: Adds static types to JavaScript for improved developer experience.</li>
 					<li><strong>Vite</strong>: A fast, modern build tool for frontend development.</li>
 				</ul>
-				<footer className="flex justify-center items-center space-x-4 text-center text-gray-500">
+				<footer className="flex flex-col items-center space-y-4 text-center text-gray-500">
+					<p className="text-xs">
+						Scaffolded with <code className="bg-gray-200 px-1 rounded">npm create @beststar/react-scaffold my-app</code>
+					</p>
 					<div>
 						Provided by <strong>BestStar</strong>. Visit my GitHub at{' '}
 						<a
