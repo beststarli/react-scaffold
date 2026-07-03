@@ -1,39 +1,14 @@
 {
-  "name": "@beststar/create-react-scaffold",
-  "private": false,
-  "version": "1.0.0",
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "description": "A modern React scaffolding CLI tool — React + TypeScript + Vite + Tailwind CSS + shadcn/ui",
-  "bin": {
-    "create-react-scaffold": "bin/index.js"
-  },
   "scripts": {
-    "dev": "vite template",
-    "build": "tsc -b template/tsconfig.json && vite build template",
-    "preview": "vite preview template",
-    "lint": "eslint template/src"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "files": [
-    "bin",
-    "template"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BestStarLi/react-scaffold.git"
-  },
-  "keywords": [
-    "react",
-    "vite",
-    "tailwindcss",
-    "shadcn",
-    "typescript",
-    "scaffold",
-    "cli"
-  ],
-  "license": "MIT",
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.12",
